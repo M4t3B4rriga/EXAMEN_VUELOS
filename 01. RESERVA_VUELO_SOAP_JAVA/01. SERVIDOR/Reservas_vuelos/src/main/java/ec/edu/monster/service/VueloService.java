@@ -22,7 +22,7 @@ import java.util.Date;
 import java.util.List;
 
 public class VueloService {
-    public List<Vuelo> buscarVuelos(String ciudadOrigen, String ciudadDestino, Date fecha) {
+public List<Vuelo> buscarVuelos(String ciudadOrigen, String ciudadDestino, Date fecha) {
         Connection cn = null;
         List<Vuelo> lista = new ArrayList<>();
         String sql = "SELECT id_vuelo, ciudad_origen, ciudad_destino, valor, hora_salida, asientos_disponibles " +
@@ -66,7 +66,6 @@ public class VueloService {
             cn = AccesoDB.getConnection();
             cn.setAutoCommit(false);
 
-            // Verificar disponibilidad de asientos
             String sql = "SELECT valor, asientos_disponibles FROM Vuelos WHERE id_vuelo = ? FOR UPDATE";
             PreparedStatement pstm = cn.prepareStatement(sql);
             pstm.setInt(1, idVuelo);
@@ -83,7 +82,6 @@ public class VueloService {
                 throw new SQLException("ERROR: No hay suficientes asientos disponibles.");
             }
 
-            // Actualizar asientos disponibles
             sql = "UPDATE Vuelos SET asientos_disponibles = asientos_disponibles - ? WHERE id_vuelo = ?";
             pstm = cn.prepareStatement(sql);
             pstm.setInt(1, numeroAsientos);
@@ -91,7 +89,6 @@ public class VueloService {
             pstm.executeUpdate();
             pstm.close();
 
-            // Generar boletos
             for (int i = 0; i < numeroAsientos; i++) {
                 String numeroAsiento = generarNumeroAsiento(idVuelo, i + 1);
                 sql = "INSERT INTO Boletos (id_usuario, id_vuelo, fecha_compra, numero_asiento) " +
@@ -102,7 +99,6 @@ public class VueloService {
                 pstm.setString(3, numeroAsiento);
                 pstm.executeUpdate();
 
-                // Obtener ID del boleto generado
                 rs = pstm.getGeneratedKeys();
                 int idBoleto = 0;
                 if (rs.next()) {
@@ -111,7 +107,6 @@ public class VueloService {
                 rs.close();
                 pstm.close();
 
-                // Registrar compra
                 sql = "INSERT INTO Compras (id_usuario, id_boleto, fecha_compra, monto_total) " +
                       "VALUES (?, ?, SYSDATE(), ?)";
                 pstm = cn.prepareStatement(sql);
@@ -163,7 +158,7 @@ public class VueloService {
                 boleto.setIdVuelo(rs.getInt("id_vuelo"));
                 boleto.setFechaCompra(rs.getTimestamp("fecha_compra"));
                 boleto.setNumeroAsiento(rs.getString("numero_asiento"));
-                boleto.setValor(rs.getDouble("valor")); // Set the flight value
+                boleto.setValor(rs.getDouble("valor"));
                 lista.add(boleto);
             }
             rs.close();
@@ -268,5 +263,32 @@ public class VueloService {
             }
         }
         return acceso;
+    }
+
+    public int obtenerIdUsuarioPorEmail(String email) {
+        Connection cn = null;
+        int idUsuario = -1;
+        String sql = "SELECT id_usuario FROM Usuarios WHERE email = ?";
+
+        try {
+            cn = AccesoDB.getConnection();
+            PreparedStatement pstm = cn.prepareStatement(sql);
+            pstm.setString(1, email);
+            ResultSet rs = pstm.executeQuery();
+
+            if (rs.next()) {
+                idUsuario = rs.getInt("id_usuario");
+            }
+            rs.close();
+            pstm.close();
+        } catch (SQLException e) {
+            throw new RuntimeException("Error al obtener ID de usuario: " + e.getMessage());
+        } finally {
+            try {
+                if (cn != null) cn.close();
+            } catch (Exception e) {
+            }
+        }
+        return idUsuario;
     }
 }

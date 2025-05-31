@@ -109,4 +109,15 @@ public class WSVuelo {
             return false;
         }
     }
+
+    @WebMethod(operationName = "obtenerIdUsuarioPorEmail")
+    @WebResult(name = "idUsuario")
+    public int obtenerIdUsuarioPorEmail(@WebParam(name = "email") String email) {
+        try {
+            VueloService service = new VueloService();
+            return service.obtenerIdUsuarioPorEmail(email);
+        } catch (Exception e) {
+            return -1;
+        }
+    }
 }
