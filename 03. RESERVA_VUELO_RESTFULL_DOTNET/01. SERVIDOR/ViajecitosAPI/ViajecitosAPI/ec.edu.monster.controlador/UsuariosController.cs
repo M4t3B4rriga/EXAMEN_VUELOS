@@ -22,12 +22,44 @@ namespace ViajecitosAPI.ec.edu.monster.controlador
             return await _context.Usuarios.ToListAsync();
         }
 
+        [HttpGet("email/{email}")]
+        public async Task<ActionResult<int>> GetUsuarioIdPorEmail(string email)
+        {
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.email == email);
+            if (usuario == null)
+                return NotFound("Usuario no encontrado.");
+            return Ok(usuario.id_usuario);
+        }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null) return NotFound();
             return usuario;
+        }
+
+        // Nueva clase para recibir datos de login
+        public class LoginRequest
+        {
+            public string email { get; set; }
+            public string contrasena { get; set; }
+        }
+
+        // POST: api/Usuarios/login
+        [HttpPost("login")]
+        public async Task<ActionResult<Usuario>> Login([FromBody] LoginRequest request)
+        {
+            if (string.IsNullOrEmpty(request.email) || string.IsNullOrEmpty(request.contrasena))
+                return BadRequest("El correo y la contraseña son obligatorios.");
+
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.email == request.email && u.contrasena == request.contrasena);
+
+            if (usuario == null)
+                return Unauthorized("Credenciales inválidas.");
+
+            return Ok(usuario);
         }
 
         [HttpPost]

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ViajecitosAPI.Data;
 using ViajecitosAPI.ec.edu.monster.modelo;
+
 namespace ViajecitosAPI.ec.edu.monster.controlador
 {
     [ApiController]
@@ -13,6 +14,22 @@ namespace ViajecitosAPI.ec.edu.monster.controlador
         public VuelosController(ViajecitosContext context)
         {
             _context = context;
+        }
+
+        [HttpGet("buscar")]
+        public async Task<ActionResult<IEnumerable<Vuelo>>> BuscarVuelos(string origen, string destino)
+        {
+            if (string.IsNullOrEmpty(origen) || string.IsNullOrEmpty(destino))
+                return BadRequest("Debe proporcionar origen y destino para buscar vuelos.");
+
+            var vuelos = await _context.Vuelos
+                .Where(v => v.ciudad_origen == origen && v.ciudad_destino == destino)
+                .ToListAsync();
+
+            if (vuelos == null || vuelos.Count == 0)
+                return NotFound("No se encontraron vuelos para esa ruta.");
+
+            return vuelos;
         }
 
         [HttpGet]
