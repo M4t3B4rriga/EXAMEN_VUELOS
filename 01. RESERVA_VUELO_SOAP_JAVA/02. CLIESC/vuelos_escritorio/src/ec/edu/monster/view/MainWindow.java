@@ -37,12 +37,12 @@ public class MainWindow extends JFrame{
         setLocationRelativeTo(null);
         
         BackgroundImagePanel backgroundPanel = new BackgroundImagePanel("menu.jpeg");
-        JPanel mainPanel = new JPanel(new BorderLayout(15, 15));
-        mainPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
+        backgroundPanel.setLayout(new BorderLayout(15, 15));
+        backgroundPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
         
         tabbedPane = new JTabbedPane();
 
-       // Search Flights Tab
+        // Search Flights Tab
         JPanel searchPanel = new JPanel(new BorderLayout(5, 5));
         searchPanel.setOpaque(false);
         JPanel searchInputPanel = new JPanel(new GridLayout(3, 2, 5, 5));
@@ -92,6 +92,12 @@ public class MainWindow extends JFrame{
         tableModel = new DefaultTableModel(columns, 0);
         resultTable = new JTable(tableModel);
         JScrollPane tableScrollPane = new JScrollPane(resultTable);
+        
+        // Create a centered panel for the table
+        JPanel tablePanel = new JPanel(new BorderLayout());
+        tablePanel.setOpaque(false);
+        tablePanel.add(tableScrollPane, BorderLayout.CENTER);
+        tablePanel.setBorder(BorderFactory.createEmptyBorder(10, 50, 10, 50)); // Add some padding
 
         // Logout Button
         JPanel logoutPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
@@ -105,8 +111,9 @@ public class MainWindow extends JFrame{
         tabbedPane.addTab("Mis Boletos", ticketsPanel);
         tabbedPane.addTab("Todos los Vuelos", allFlightsPanel);
 
+        // Add components to background panel
         backgroundPanel.add(tabbedPane, BorderLayout.CENTER);
-        backgroundPanel.add(tableScrollPane, BorderLayout.SOUTH);
+        backgroundPanel.add(tablePanel, BorderLayout.SOUTH);
         backgroundPanel.add(logoutPanel, BorderLayout.NORTH);
 
         add(backgroundPanel);

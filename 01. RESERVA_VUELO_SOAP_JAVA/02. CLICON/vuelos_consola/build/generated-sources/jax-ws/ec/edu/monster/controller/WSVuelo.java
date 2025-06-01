@@ -28,6 +28,7 @@ public interface WSVuelo {
 
     /**
      * 
+<<<<<<< HEAD
      * @param fecha
      * @param ciudadOrigen
      * @param ciudadDestino
@@ -142,6 +143,8 @@ public interface WSVuelo {
 
     /**
      * 
+=======
+>>>>>>> 063911fe5861c8c387bbe859dfc16ab0bcd026e6
      * @param contrasena
      * @param email
      * @return
@@ -158,4 +161,121 @@ public interface WSVuelo {
         @WebParam(name = "contrasena", targetNamespace = "")
         String contrasena);
 
+<<<<<<< HEAD
+=======
+    /**
+     * 
+     * @param email
+     * @return
+     *     returns int
+     */
+    @WebMethod
+    @WebResult(name = "idUsuario", targetNamespace = "")
+    @RequestWrapper(localName = "obtenerIdUsuarioPorEmail", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.ObtenerIdUsuarioPorEmail")
+    @ResponseWrapper(localName = "obtenerIdUsuarioPorEmailResponse", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.ObtenerIdUsuarioPorEmailResponse")
+    @Action(input = "http://controller.monster.edu.ec/WSVuelo/obtenerIdUsuarioPorEmailRequest", output = "http://controller.monster.edu.ec/WSVuelo/obtenerIdUsuarioPorEmailResponse")
+    public int obtenerIdUsuarioPorEmail(
+        @WebParam(name = "email", targetNamespace = "")
+        String email);
+
+    /**
+     * 
+     * @param idUsuario
+     * @return
+     *     returns java.util.List<ec.edu.monster.controller.Boleto>
+     */
+    @WebMethod
+    @WebResult(name = "boleto", targetNamespace = "")
+    @RequestWrapper(localName = "mostrarBoletosUsuario", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.MostrarBoletosUsuario")
+    @ResponseWrapper(localName = "mostrarBoletosUsuarioResponse", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.MostrarBoletosUsuarioResponse")
+    @Action(input = "http://controller.monster.edu.ec/WSVuelo/mostrarBoletosUsuarioRequest", output = "http://controller.monster.edu.ec/WSVuelo/mostrarBoletosUsuarioResponse")
+    public List<Boleto> mostrarBoletosUsuario(
+        @WebParam(name = "idUsuario", targetNamespace = "")
+        int idUsuario);
+
+    /**
+     * 
+     * @param numeroAsientos
+     * @param idUsuario
+     * @param idVuelo
+     * @return
+     *     returns int
+     */
+    @WebMethod
+    @WebResult(name = "estado", targetNamespace = "")
+    @RequestWrapper(localName = "comprarBoletos", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.ComprarBoletos")
+    @ResponseWrapper(localName = "comprarBoletosResponse", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.ComprarBoletosResponse")
+    @Action(input = "http://controller.monster.edu.ec/WSVuelo/comprarBoletosRequest", output = "http://controller.monster.edu.ec/WSVuelo/comprarBoletosResponse")
+    public int comprarBoletos(
+        @WebParam(name = "idUsuario", targetNamespace = "")
+        int idUsuario,
+        @WebParam(name = "idVuelo", targetNamespace = "")
+        int idVuelo,
+        @WebParam(name = "numeroAsientos", targetNamespace = "")
+        int numeroAsientos);
+
+    /**
+     * 
+     * @param apellidoUsuario
+     * @param cedula
+     * @param celular
+     * @param contrasena
+     * @param nombreUsuario
+     * @param email
+     * @return
+     *     returns int
+     */
+    @WebMethod
+    @WebResult(name = "estado", targetNamespace = "")
+    @RequestWrapper(localName = "registrarUsuario", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.RegistrarUsuario")
+    @ResponseWrapper(localName = "registrarUsuarioResponse", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.RegistrarUsuarioResponse")
+    @Action(input = "http://controller.monster.edu.ec/WSVuelo/registrarUsuarioRequest", output = "http://controller.monster.edu.ec/WSVuelo/registrarUsuarioResponse")
+    public int registrarUsuario(
+        @WebParam(name = "nombreUsuario", targetNamespace = "")
+        String nombreUsuario,
+        @WebParam(name = "apellidoUsuario", targetNamespace = "")
+        String apellidoUsuario,
+        @WebParam(name = "cedula", targetNamespace = "")
+        String cedula,
+        @WebParam(name = "celular", targetNamespace = "")
+        String celular,
+        @WebParam(name = "email", targetNamespace = "")
+        String email,
+        @WebParam(name = "contrasena", targetNamespace = "")
+        String contrasena);
+
+    /**
+     * 
+     * @return
+     *     returns java.util.List<ec.edu.monster.controller.Vuelo>
+     */
+    @WebMethod
+    @WebResult(name = "vuelo", targetNamespace = "")
+    @RequestWrapper(localName = "mostrarTodosVuelos", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.MostrarTodosVuelos")
+    @ResponseWrapper(localName = "mostrarTodosVuelosResponse", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.MostrarTodosVuelosResponse")
+    @Action(input = "http://controller.monster.edu.ec/WSVuelo/mostrarTodosVuelosRequest", output = "http://controller.monster.edu.ec/WSVuelo/mostrarTodosVuelosResponse")
+    public List<Vuelo> mostrarTodosVuelos();
+
+    /**
+     * 
+     * @param fecha
+     * @param ciudadOrigen
+     * @param ciudadDestino
+     * @return
+     *     returns java.util.List<ec.edu.monster.controller.Vuelo>
+     */
+    @WebMethod
+    @WebResult(name = "vuelo", targetNamespace = "")
+    @RequestWrapper(localName = "buscarVuelos", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.BuscarVuelos")
+    @ResponseWrapper(localName = "buscarVuelosResponse", targetNamespace = "http://controller.monster.edu.ec/", className = "ec.edu.monster.controller.BuscarVuelosResponse")
+    @Action(input = "http://controller.monster.edu.ec/WSVuelo/buscarVuelosRequest", output = "http://controller.monster.edu.ec/WSVuelo/buscarVuelosResponse")
+    public List<Vuelo> buscarVuelos(
+        @WebParam(name = "ciudadOrigen", targetNamespace = "")
+        String ciudadOrigen,
+        @WebParam(name = "ciudadDestino", targetNamespace = "")
+        String ciudadDestino,
+        @WebParam(name = "fecha", targetNamespace = "")
+        XMLGregorianCalendar fecha);
+
+>>>>>>> 063911fe5861c8c387bbe859dfc16ab0bcd026e6
 }
