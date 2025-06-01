@@ -156,32 +156,6 @@
   },
   {
     "ContainingType": "ViajecitosAPI.ec.edu.monster.controlador.ComprasController",
-    "Method": "PostCompra",
-    "RelativePath": "api/Compras",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "compra",
-        "Type": "ViajecitosAPI.ec.edu.monster.modelo.Compra",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ViajecitosAPI.ec.edu.monster.modelo.Compra",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ViajecitosAPI.ec.edu.monster.controlador.ComprasController",
     "Method": "GetCompra",
     "RelativePath": "api/Compras/{id}",
     "HttpMethod": "GET",
@@ -239,6 +213,32 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViajecitosAPI.ec.edu.monster.controlador.ComprasController",
+    "Method": "ComprarBoletos",
+    "RelativePath": "api/Compras/comprar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idVuelo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroAsientos",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

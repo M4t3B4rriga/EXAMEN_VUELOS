@@ -30,13 +30,54 @@ namespace ViajecitosAPI.ec.edu.monster.controlador
             return compra;
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Compra>> PostCompra(Compra compra)
+        [HttpPost("comprar")]
+        public async Task<ActionResult> ComprarBoletos(int idUsuario, int idVuelo, int numeroAsientos)
         {
-            _context.Compras.Add(compra);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetCompra), new { id = compra.id_compra }, compra);
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                var vuelo = await _context.Vuelos.FirstOrDefaultAsync(v => v.id_vuelo == idVuelo);
+                if (vuelo == null) return NotFound("Vuelo no encontrado.");
+                if (vuelo.asientos_disponibles < numeroAsientos)
+                    return BadRequest("No hay suficientes asientos disponibles.");
+
+                vuelo.asientos_disponibles -= numeroAsientos;
+                _context.Vuelos.Update(vuelo);
+
+                for (int i = 0; i < numeroAsientos; i++)
+                {
+                    var boleto = new Boleto
+                    {
+                        id_usuario = idUsuario,
+                        id_vuelo = idVuelo,
+                        fecha_compra = DateTime.Now,
+                        numero_asiento = $"V{idVuelo}-{(char)('A' + i)}"
+                    };
+                    _context.Boletos.Add(boleto);
+                    await _context.SaveChangesAsync(); // Necesario para obtener el id_boleto
+
+                    var compra = new Compra
+                    {
+                        id_usuario = idUsuario,
+                        id_boleto = boleto.id_boleto,
+                        fecha_compra = DateTime.Now,
+                        monto_total = vuelo.valor
+                    };
+                    _context.Compras.Add(compra);
+                }
+
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                return Ok(new { mensaje = "Boletos comprados exitosamente." });
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return StatusCode(500, $"Error: {ex.Message}");
+            }
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCompra(int id, Compra compra)
