@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "sugT7NJ/Uhs=",
+  "success": true,
+  "projectFilePath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLICON\\ClienteConsolaVuelos\\ClienteConsolaVuelos\\ClienteConsolaVuelos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adaly\\.nuget\\packages\\constellation.feature.sitemapxml\\9.0.10.16993\\constellation.feature.sitemapxml.9.0.10.16993.nupkg.sha512",
+    "C:\\Users\\Adaly\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Adaly\\.nuget\\packages\\plugin.payments.weixin\\1.0.0\\plugin.payments.weixin.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "El paquete \"Constellation.Feature.SitemapXml 9.0.10.16993\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLICON\\ClienteConsolaVuelos\\ClienteConsolaVuelos\\ClienteConsolaVuelos.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLICON\\ClienteConsolaVuelos\\ClienteConsolaVuelos\\ClienteConsolaVuelos.csproj",
+      "libraryId": "Constellation.Feature.SitemapXml",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "El paquete \"Plugin.Payments.Weixin 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLICON\\ClienteConsolaVuelos\\ClienteConsolaVuelos\\ClienteConsolaVuelos.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLICON\\ClienteConsolaVuelos\\ClienteConsolaVuelos\\ClienteConsolaVuelos.csproj",
+      "libraryId": "Plugin.Payments.Weixin",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
