@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Boletos</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="public/css/styles.css" />
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Sidebar -->
+  <div class="fixed inset-y-0 left-0 w-64 bg-blue-800 text-white sidebar" id="sidebar">
+    <div class="p-4">
+      <h2 class="text-xl font-bold">Panel de Usuario</h2>
+      <p id="userEmail" class="mt-2 text-sm"></p>
+    </div>
+    <nav class="mt-4">
+      <ul>
+        <li><a href="buscar-vuelos.html" class="block py-2 px-4 hover:bg-blue-700">Buscar Vuelos</a></li>
+        <li><a href="todos-vuelos.html" class="block py-2 px-4 hover:bg-blue-700">Todos los Vuelos</a></li>
+        <li><a href="mis-boletos.html" class="block py-2 px-4 bg-blue-700">Mis Boletos</a></li>
+        <li><a href="comprar-boletos.html" class="block py-2 px-4 hover:bg-blue-700">Comprar Boletos</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Toggle Sidebar Button -->
+  <button id="toggleSidebar" class="fixed top-4 left-4 z-50 p-2 bg-blue-600 text-white rounded-md md:hidden">
+    ☰
+  </button>
+
+  <!-- Main Content -->
+  <div class="ml-0 md:ml-64 p-6 transition-all">
+    <div class="max-w-4xl mx-auto">
+      <section class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-4">Mis Boletos</h3>
+        <button id="mostrarBoletosBtn" class="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Mostrar</button>
+        <div id="resultado" class="table-container mt-4"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="public/js/dashborad.js"></script>
+</body>
+</html>

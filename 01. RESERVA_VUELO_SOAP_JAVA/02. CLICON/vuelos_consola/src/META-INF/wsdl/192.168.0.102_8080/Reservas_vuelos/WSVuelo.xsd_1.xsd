@@ -32,20 +32,6 @@
 
 <xs:element name="vuelo" type="tns:vuelo"/>
 
-<xs:complexType name="comprarBoletos">
-<xs:sequence>
-<xs:element name="idUsuario" type="xs:int"/>
-<xs:element name="idVuelo" type="xs:int"/>
-<xs:element name="numeroAsientos" type="xs:int"/>
-</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="comprarBoletosResponse">
-<xs:sequence>
-<xs:element name="estado" type="xs:int"/>
-</xs:sequence>
-</xs:complexType>
-
 <xs:complexType name="buscarVuelos">
 <xs:sequence>
 <xs:element name="ciudadOrigen" type="xs:string" minOccurs="0"/>
@@ -68,6 +54,20 @@
 <xs:element name="horaSalida" type="xs:dateTime" minOccurs="0"/>
 <xs:element name="idVuelo" type="xs:int"/>
 <xs:element name="valor" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="comprarBoletos">
+<xs:sequence>
+<xs:element name="idUsuario" type="xs:int"/>
+<xs:element name="idVuelo" type="xs:int"/>
+<xs:element name="numeroAsientos" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="comprarBoletosResponse">
+<xs:sequence>
+<xs:element name="estado" type="xs:int"/>
 </xs:sequence>
 </xs:complexType>
 

@@ -4,6 +4,30 @@
 <xsd:import namespace="http://controller.monster.edu.ec/" schemaLocation="http://192.168.0.102:8080/Reservas_vuelos/WSVuelo?xsd=1"/>
 </xsd:schema>
 </types>
+<message name="buscarVuelos">
+<part name="parameters" element="tns:buscarVuelos"/>
+</message>
+<message name="buscarVuelosResponse">
+<part name="parameters" element="tns:buscarVuelosResponse"/>
+</message>
+<message name="comprarBoletos">
+<part name="parameters" element="tns:comprarBoletos"/>
+</message>
+<message name="comprarBoletosResponse">
+<part name="parameters" element="tns:comprarBoletosResponse"/>
+</message>
+<message name="mostrarTodosVuelos">
+<part name="parameters" element="tns:mostrarTodosVuelos"/>
+</message>
+<message name="mostrarTodosVuelosResponse">
+<part name="parameters" element="tns:mostrarTodosVuelosResponse"/>
+</message>
+<message name="registrarUsuario">
+<part name="parameters" element="tns:registrarUsuario"/>
+</message>
+<message name="registrarUsuarioResponse">
+<part name="parameters" element="tns:registrarUsuarioResponse"/>
+</message>
 <message name="mostrarBoletosUsuario">
 <part name="parameters" element="tns:mostrarBoletosUsuario"/>
 </message>
@@ -22,31 +46,23 @@
 <message name="loginResponse">
 <part name="parameters" element="tns:loginResponse"/>
 </message>
-<message name="mostrarTodosVuelos">
-<part name="parameters" element="tns:mostrarTodosVuelos"/>
-</message>
-<message name="mostrarTodosVuelosResponse">
-<part name="parameters" element="tns:mostrarTodosVuelosResponse"/>
-</message>
-<message name="comprarBoletos">
-<part name="parameters" element="tns:comprarBoletos"/>
-</message>
-<message name="comprarBoletosResponse">
-<part name="parameters" element="tns:comprarBoletosResponse"/>
-</message>
-<message name="buscarVuelos">
-<part name="parameters" element="tns:buscarVuelos"/>
-</message>
-<message name="buscarVuelosResponse">
-<part name="parameters" element="tns:buscarVuelosResponse"/>
-</message>
-<message name="registrarUsuario">
-<part name="parameters" element="tns:registrarUsuario"/>
-</message>
-<message name="registrarUsuarioResponse">
-<part name="parameters" element="tns:registrarUsuarioResponse"/>
-</message>
 <portType name="WSVuelo">
+<operation name="buscarVuelos">
+<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/buscarVuelosRequest" message="tns:buscarVuelos"/>
+<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/buscarVuelosResponse" message="tns:buscarVuelosResponse"/>
+</operation>
+<operation name="comprarBoletos">
+<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/comprarBoletosRequest" message="tns:comprarBoletos"/>
+<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/comprarBoletosResponse" message="tns:comprarBoletosResponse"/>
+</operation>
+<operation name="mostrarTodosVuelos">
+<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/mostrarTodosVuelosRequest" message="tns:mostrarTodosVuelos"/>
+<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/mostrarTodosVuelosResponse" message="tns:mostrarTodosVuelosResponse"/>
+</operation>
+<operation name="registrarUsuario">
+<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/registrarUsuarioRequest" message="tns:registrarUsuario"/>
+<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/registrarUsuarioResponse" message="tns:registrarUsuarioResponse"/>
+</operation>
 <operation name="mostrarBoletosUsuario">
 <input wsam:Action="http://controller.monster.edu.ec/WSVuelo/mostrarBoletosUsuarioRequest" message="tns:mostrarBoletosUsuario"/>
 <output wsam:Action="http://controller.monster.edu.ec/WSVuelo/mostrarBoletosUsuarioResponse" message="tns:mostrarBoletosUsuarioResponse"/>
@@ -59,25 +75,45 @@
 <input wsam:Action="http://controller.monster.edu.ec/WSVuelo/loginRequest" message="tns:login"/>
 <output wsam:Action="http://controller.monster.edu.ec/WSVuelo/loginResponse" message="tns:loginResponse"/>
 </operation>
-<operation name="mostrarTodosVuelos">
-<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/mostrarTodosVuelosRequest" message="tns:mostrarTodosVuelos"/>
-<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/mostrarTodosVuelosResponse" message="tns:mostrarTodosVuelosResponse"/>
-</operation>
-<operation name="comprarBoletos">
-<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/comprarBoletosRequest" message="tns:comprarBoletos"/>
-<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/comprarBoletosResponse" message="tns:comprarBoletosResponse"/>
-</operation>
-<operation name="buscarVuelos">
-<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/buscarVuelosRequest" message="tns:buscarVuelos"/>
-<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/buscarVuelosResponse" message="tns:buscarVuelosResponse"/>
-</operation>
-<operation name="registrarUsuario">
-<input wsam:Action="http://controller.monster.edu.ec/WSVuelo/registrarUsuarioRequest" message="tns:registrarUsuario"/>
-<output wsam:Action="http://controller.monster.edu.ec/WSVuelo/registrarUsuarioResponse" message="tns:registrarUsuarioResponse"/>
-</operation>
 </portType>
 <binding name="WSVueloPortBinding" type="tns:WSVuelo">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<operation name="buscarVuelos">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="comprarBoletos">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="mostrarTodosVuelos">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="registrarUsuario">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
 <operation name="mostrarBoletosUsuario">
 <soap:operation soapAction=""/>
 <input>
@@ -97,42 +133,6 @@
 </output>
 </operation>
 <operation name="login">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="mostrarTodosVuelos">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="comprarBoletos">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="buscarVuelos">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="registrarUsuario">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
