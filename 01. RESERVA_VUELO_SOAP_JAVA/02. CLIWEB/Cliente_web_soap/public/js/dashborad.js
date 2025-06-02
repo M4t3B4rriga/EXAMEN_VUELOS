@@ -1,10 +1,8 @@
 // URL del proxy y del servicio SOAP
 const proxyUrl = 'http://localhost:3000/soap';
-<<<<<<< HEAD
+
 const soapEndpoint = 'http://10.40.26.45:8080/Reservas_vuelos/WSVuelo?wsdl';
-=======
-const soapEndpoint = 'http://192.168.0.102:8080/Reservas_vuelos/WSVuelo?wsdl';
->>>>>>> 47a79e34fec662558b14e38ab589974b0a06d8e4
+
 
 // Obtener el email del usuario desde sessionStorage
 const email = sessionStorage.getItem('email');
