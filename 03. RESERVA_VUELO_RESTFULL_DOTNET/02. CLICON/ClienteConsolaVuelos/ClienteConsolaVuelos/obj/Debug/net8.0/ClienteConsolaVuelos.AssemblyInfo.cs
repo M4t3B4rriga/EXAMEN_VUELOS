@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClienteConsolaVuelos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+063911fe5861c8c387bbe859dfc16ab0bcd026e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b6315c4e0a2b60d1cb37bebb8bcba7486353a57")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClienteConsolaVuelos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClienteConsolaVuelos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

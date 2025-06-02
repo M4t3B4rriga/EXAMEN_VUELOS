@@ -14,7 +14,7 @@ namespace ClienteConsolaVuelos.ec.edu.monster.controlador
         public ClienteAPI()
         {
             client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.10.247/");
+            client.BaseAddress = new Uri("http://192.168.100.16/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
