@@ -1,0 +1,89 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menú Principal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('/Content/imagenes/menu.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .menu-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            width: 350px;
+        }
+
+            .menu-container h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .menu-container p {
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+
+            .menu-container ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .menu-container li {
+                margin: 10px 0;
+            }
+
+            .menu-container a {
+                color: #4CAF50;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 8px 15px;
+                background-color: rgba(255,255,255,0.1);
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+                .menu-container a:hover {
+                    background-color: rgba(76, 175, 80, 0.8);
+                    color: #fff;
+                }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h2>Menú Principal</h2>
+
+        @if (Session["UsuarioLogueado"] != null)
+        {
+            var usuario = Session["UsuarioLogueado"] as ClienteConsolaVuelos.ec.edu.monster.modelo.Usuario;
+            <p>Bienvenido: @usuario.nombre_usuario @usuario.apellido_usuario</p>
+        }
+
+        <ul>
+            <li><a href="/UsuariosMvc/IniciarSesion">Iniciar Sesión (API)</a></li>
+            <li><a href="/UsuariosMvc/Registrar">Registrar Usuario (API)</a></li>
+            <li><a href="/Vuelos/BuscarVuelos">Buscar Vuelos</a></li>
+            <li><a href="/Vuelos/ComprarBoletos">Comprar Boletos</a></li>
+            <li><a href="/Vuelos/MostrarBoletos">Mostrar Mis Boletos</a></li>
+            <li><a href="/Vuelos/MostrarTodosVuelos">Mostrar Todos los Vuelos</a></li>
+            <li><a href="/Vuelos/ObtenerIdPorEmail">Obtener ID por Email</a></li>
+        </ul>
+    </div>
+</body>
+</html>

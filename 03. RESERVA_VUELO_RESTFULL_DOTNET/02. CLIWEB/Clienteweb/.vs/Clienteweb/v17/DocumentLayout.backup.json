@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\vuelos\\buscarvuelos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\vuelos\\buscarvuelos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliweb\\clienteweb\\clienteweb\\views\\usuariosmvc\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\usuariosmvc\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\usuariosmvc\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\usuariosmvc\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\vuelos\\comprarboletos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\vuelos\\comprarboletos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\vuelos\\mostrarboletos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\vuelos\\mostrarboletos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\vuelos\\mostrartodosvuelos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\vuelos\\mostrartodosvuelos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\vuelos\\obteneridporemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\vuelos\\obteneridporemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\controllers\\usuariosmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\controllers\\usuariosmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\controllers\\vueloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\controllers\\vueloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\controllers\\usuariosapicliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\controllers\\usuariosapicliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\clienteweb\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431EFA-1DDC-4A1B-8874-A3BC2321F514}|Clienteweb\\Clienteweb.csproj|solutionrelative:clienteweb\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registrar.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\UsuariosMvc\\Registrar.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\UsuariosMvc\\Registrar.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\UsuariosMvc\\Registrar.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\UsuariosMvc\\Registrar.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwGYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:35.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuscarVuelos.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\BuscarVuelos.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Vuelos\\BuscarVuelos.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\BuscarVuelos.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Vuelos\\BuscarVuelos.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAUwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:24:45.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComprarBoletos.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\ComprarBoletos.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Vuelos\\ComprarBoletos.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\ComprarBoletos.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Vuelos\\ComprarBoletos.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAuwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:24:59.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MostrarTodosVuelos.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\MostrarTodosVuelos.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Vuelos\\MostrarTodosVuelos.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\MostrarTodosVuelos.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Vuelos\\MostrarTodosVuelos.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwGUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:25:21.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IniciarSesion.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\UsuariosMvc\\IniciarSesion.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\UsuariosMvc\\IniciarSesion.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\UsuariosMvc\\IniciarSesion.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\UsuariosMvc\\IniciarSesion.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:24:15.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vuelo.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Models\\Vuelo.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Models\\Vuelo.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Models\\Vuelo.cs",
+              "RelativeToolTip": "Clienteweb\\Models\\Vuelo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:15:44.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Boleto.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Models\\Boleto.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Models\\Boleto.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Models\\Boleto.cs",
+              "RelativeToolTip": "Clienteweb\\Models\\Boleto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:15:39.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MostrarBoletos.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\MostrarBoletos.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Vuelos\\MostrarBoletos.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\MostrarBoletos.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Vuelos\\MostrarBoletos.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwGwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:25:10.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObtenerIdPorEmail.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\ObtenerIdPorEmail.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Vuelos\\ObtenerIdPorEmail.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Vuelos\\ObtenerIdPorEmail.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Vuelos\\ObtenerIdPorEmail.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:25:32.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T13:07:34.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:20.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Clienteweb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:29:23.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuariosMvcController.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\UsuariosMvcController.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Controllers\\UsuariosMvcController.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\UsuariosMvcController.cs",
+              "RelativeToolTip": "Clienteweb\\Controllers\\UsuariosMvcController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:30:48.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Clienteweb\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:05:16.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VuelosController.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\VuelosController.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Controllers\\VuelosController.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\VuelosController.cs",
+              "RelativeToolTip": "Clienteweb\\Controllers\\VuelosController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:20:59.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuariosApiCliente.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\UsuariosApiCliente.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Controllers\\UsuariosApiCliente.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Controllers\\UsuariosApiCliente.cs",
+              "RelativeToolTip": "Clienteweb\\Controllers\\UsuariosApiCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:16:08.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Clienteweb\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:36:09.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clienteweb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Clienteweb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T13:07:56.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Clienteweb\\Models\\Usuario.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIWEB\\Clienteweb\\Clienteweb\\Models\\Usuario.cs",
+              "RelativeToolTip": "Clienteweb\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:15:42.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

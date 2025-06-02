@@ -1,0 +1,126 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrar Usuario (API)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('/Content/imagenes/menu.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            width: 350px;
+        }
+
+            .form-container h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .form-container label {
+                display: block;
+                margin: 10px 0 5px;
+                font-weight: bold;
+            }
+
+            .form-container input {
+                width: 90%;
+                padding: 8px;
+                margin-bottom: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .form-container button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+
+                .form-container button:hover {
+                    background-color: #45a049;
+                }
+
+        .back-button {
+            background-color: #2196F3;
+        }
+
+            .back-button:hover {
+                background-color: #0b7dda;
+            }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        .success {
+            color: lightgreen;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registrar Usuario (API)</h2>
+
+        @if (ViewBag.Mensaje != null)
+        {
+            <p class="success">@ViewBag.Mensaje</p>
+        }
+
+        @if (ViewBag.Error != null)
+        {
+            <p class="error">@ViewBag.Error</p>
+        }
+
+        <form method="post">
+            <label>Nombre:</label>
+            <input type="text" name="nombre_usuario" />
+
+            <label>Apellido:</label>
+            <input type="text" name="apellido_usuario" />
+
+            <label>Cédula:</label>
+            <input type="text" name="cedula" />
+
+            <label>Celular:</label>
+            <input type="text" name="celular" />
+
+            <label>Email:</label>
+            <input type="text" name="email" />
+
+            <label>Contraseña:</label>
+            <input type="password" name="contrasena" />
+
+            <button type="submit">Registrar</button>
+        </form>
+
+        <form action="/Home/Menu" method="get">
+            <button type="submit" class="back-button">Regresar al Menú</button>
+        </form>
+    </div>
+</body>
+</html>

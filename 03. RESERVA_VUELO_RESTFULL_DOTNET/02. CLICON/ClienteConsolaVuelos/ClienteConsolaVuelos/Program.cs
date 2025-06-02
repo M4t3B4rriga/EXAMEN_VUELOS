@@ -23,46 +23,67 @@ namespace ClienteConsolaVuelos
 
             while (true)
             {
-                Console.WriteLine("\n=== Menú Principal ===");
-                Console.WriteLine("1. Iniciar sesión");
-                Console.WriteLine("2. Registrarse");
-                Console.WriteLine("3. Buscar vuelos");
-                Console.WriteLine("4. Comprar boletos");
-                Console.WriteLine("5. Mostrar mis boletos");
-                Console.WriteLine("6. Mostrar todos los vuelos");
-                Console.WriteLine("7. Obtener ID de usuario por email");
-                Console.WriteLine("0. Salir");
-                Console.Write("Opción: ");
-                var opcion = Console.ReadLine();
-
-                switch (opcion)
+                if (usuarioLogueado == null)
                 {
-                    case "1":
-                        await Login(api);
-                        break;
-                    case "2":
-                        await Registro(api);
-                        break;
-                    case "3":
-                        await BuscarVuelos(api);
-                        break;
-                    case "4":
-                        await ComprarBoletos(api);
-                        break;
-                    case "5":
-                        await MostrarBoletos(api);
-                        break;
-                    case "6":
-                        await MostrarTodosVuelos(api);
-                        break;
-                    case "7":
-                        await ObtenerIdPorEmail(api);
-                        break;
-                    case "0":
-                        return;
-                    default:
-                        Console.WriteLine("Opción inválida.");
-                        break;
+                    Console.WriteLine("\n=== Inicio de Sesion Aerolinea ===");
+                    Console.WriteLine("1. Iniciar sesión");
+                    Console.WriteLine("2. Registrarse");
+                    Console.WriteLine("0. Salir");
+                    Console.Write("Opción: ");
+                    var opcion = Console.ReadLine();
+
+                    switch (opcion)
+                    {
+                        case "1":
+                            await Login(api);
+                            break;
+                        case "2":
+                            await Registro(api);
+                            Console.WriteLine("\nPor favor, inicia sesión para continuar.");
+                            await Login(api);
+                            break;
+                        case "0":
+                            return;
+                        default:
+                            Console.WriteLine("Opción inválida.");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("\n=== Menú Principal ===");
+                    Console.WriteLine("3. Buscar vuelos");
+                    Console.WriteLine("4. Comprar boletos");
+                    Console.WriteLine("5. Mostrar mis boletos");
+                    Console.WriteLine("6. Mostrar todos los vuelos");
+                    Console.WriteLine("7. Obtener ID de usuario por email");
+                    Console.WriteLine("0. Salir");
+                    Console.Write("Opción: ");
+                    var opcion = Console.ReadLine();
+
+                    switch (opcion)
+                    {
+                        case "3":
+                            await BuscarVuelos(api);
+                            break;
+                        case "4":
+                            await ComprarBoletos(api);
+                            break;
+                        case "5":
+                            await MostrarBoletos(api);
+                            break;
+                        case "6":
+                            await MostrarTodosVuelos(api);
+                            break;
+                        case "7":
+                            await ObtenerIdPorEmail(api);
+                            break;
+                        case "0":
+                            return;
+                        default:
+                            Console.WriteLine("Opción inválida.");
+                            break;
+                    }
                 }
             }
         }
@@ -133,9 +154,28 @@ namespace ClienteConsolaVuelos
             var o = Console.ReadLine();
             Console.Write("Destino: ");
             var d = Console.ReadLine();
+            Console.Write("Fecha del vuelo (YYYY-MM-DD): ");
+            var fechaInput = Console.ReadLine();
+
+            if (!DateTime.TryParse(fechaInput, out DateTime fechaSeleccionada))
+            {
+                Console.WriteLine("Formato de fecha inválido. Usa YYYY-MM-DD.");
+                return;
+            }
+
             var vuelos = await api.BuscarVuelos(o, d);
-            foreach (var v in vuelos)
-                Console.WriteLine($"{v.id_vuelo} | {v.ciudad_origen}->{v.ciudad_destino} | ${v.valor} | Asientos: {v.asientos_disponibles}");
+
+            var vuelosFiltrados = vuelos.Where(v => v.hora_salida.Date == fechaSeleccionada.Date).ToList();
+
+            if (vuelosFiltrados.Any())
+            {
+                foreach (var v in vuelosFiltrados)
+                    Console.WriteLine($"{v.id_vuelo} | {v.ciudad_origen}->{v.ciudad_destino} | ${v.valor} | Asientos: {v.asientos_disponibles} | Salida: {v.hora_salida}");
+            }
+            else
+            {
+                Console.WriteLine("No se encontraron vuelos para la fecha seleccionada.");
+            }
         }
 
         static async Task ComprarBoletos(ClienteAPI api)

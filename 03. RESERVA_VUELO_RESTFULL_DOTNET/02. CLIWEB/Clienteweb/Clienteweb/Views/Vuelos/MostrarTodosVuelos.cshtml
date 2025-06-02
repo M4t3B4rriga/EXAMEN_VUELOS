@@ -1,0 +1,104 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mostrar Todos los Vuelos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('/Content/imagenes/menu.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            width: 400px;
+        }
+
+            .form-container h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .form-container button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+
+                .form-container button:hover {
+                    background-color: #45a049;
+                }
+
+        .back-button {
+            background-color: #2196F3;
+        }
+
+            .back-button:hover {
+                background-color: #0b7dda;
+            }
+
+        .results {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+            .results ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .results li {
+                background: rgba(255,255,255,0.1);
+                padding: 8px;
+                margin-bottom: 5px;
+                border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Todos los Vuelos</h2>
+
+        <form method="post">
+            <button type="submit">Ver Todos los Vuelos</button>
+        </form>
+
+        @if (ViewBag.Vuelos != null)
+        {
+            <div class="results">
+                <h3>Resultados:</h3>
+                <ul>
+                    @foreach (var vuelo in ViewBag.Vuelos)
+                    {
+                        <li>ID: @vuelo.id_vuelo | @vuelo.ciudad_origen → @vuelo.ciudad_destino | $@vuelo.valor</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <form action="/Home/Menu" method="get">
+            <button type="submit" class="back-button">Regresar al Menú</button>
+        </form>
+    </div>
+</body>
+</html>

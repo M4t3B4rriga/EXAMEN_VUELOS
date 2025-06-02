@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
               "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
               "RelativeToolTip": "ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T02:13:30.726Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "ViajecitosAPI\\ec.edu.monster.controlador\\UsuariosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T01:56:03.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T01:56:03.411Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "ViajecitosAPI\\ec.edu.monster.controlador\\BoletosController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T01:52:37.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T01:52:37.667Z"
             },
             {
               "$type": "Document",
