@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cliente Vuelos</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url('/img/menu.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    h1 {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    button {
+      padding: 0.8rem 1.5rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8rem;
+        padding: 0.8rem 1.5rem;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      button {
+        width: 100%;
+        max-width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido al sistema de vuelos</h1>
+  <nav>
+    <button onclick="location.href='login.html'">Iniciar Sesión</button>
+    <button onclick="location.href='register.html'">Registrar Usuario</button>
+  </nav>
+</body>
+</html>

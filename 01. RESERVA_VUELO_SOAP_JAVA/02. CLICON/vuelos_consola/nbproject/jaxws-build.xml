@@ -18,8 +18,8 @@
     </target>
     <target name="wsimport-client-WSVuelo" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/WSVuelo"/>
-        <property name="wsdl-WSVuelo" location="xml-resources/web-service-references/WSVuelo/wsdl/192.168.0.102_8080/Reservas_vuelos/WSVuelo.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSVuelo" destdir="${build.generated.dir}/jax-wsCache/WSVuelo" wsdl="${wsdl-WSVuelo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.102:8080/Reservas_vuelos/WSVuelo?wsdl" xnocompile="true" xendorsed="true">
+        <property name="wsdl-WSVuelo" location="xml-resources/web-service-references/WSVuelo/wsdl/10.40.26.45_8080/Reservas_vuelos/WSVuelo.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSVuelo" destdir="${build.generated.dir}/jax-wsCache/WSVuelo" wsdl="${wsdl-WSVuelo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://10.40.26.45:8080/Reservas_vuelos/WSVuelo?wsdl" xnocompile="true" xendorsed="true">
             <depends file="${wsdl-WSVuelo}"/>
             <produces dir="${build.generated.dir}/jax-wsCache/WSVuelo"/>
         </wsimport>
@@ -33,22 +33,5 @@
         <delete dir="${build.generated.dir}/jax-wsCache/WSVuelo"/>
         <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/monster/controller"/>
     </target>
-    <target name="wsimport-client-WSVuelo_1" depends="wsimport-init">
-        <mkdir dir="${build.generated.dir}/jax-wsCache/WSVuelo_1"/>
-        <property name="wsdl-WSVuelo_1" location="xml-resources/web-service-references/WSVuelo_1/wsdl/msi_8080/Reservas_vuelos/WSVuelo.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSVuelo_1" destdir="${build.generated.dir}/jax-wsCache/WSVuelo_1" wsdl="${wsdl-WSVuelo_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://msi:8080/Reservas_vuelos/WSVuelo?wsdl" xnocompile="true" xendorsed="true">
-            <depends file="${wsdl-WSVuelo_1}"/>
-            <produces dir="${build.generated.dir}/jax-wsCache/WSVuelo_1"/>
-        </wsimport>
-        <copy todir="${build.generated.sources.dir}/jax-ws">
-            <fileset dir="${build.generated.dir}/jax-wsCache/WSVuelo_1">
-                <include name="**/*.java"/>
-            </fileset>
-        </copy>
-    </target>
-    <target name="wsimport-client-clean-WSVuelo_1" depends="-init-project">
-        <delete dir="${build.generated.dir}/jax-wsCache/WSVuelo_1"/>
-        <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/monster/controller"/>
-    </target>
-    <target name="wsimport-client-generate" depends="wsimport-client-WSVuelo, wsimport-client-WSVuelo_1"/>
+    <target name="wsimport-client-generate" depends="wsimport-client-WSVuelo"/>
 </project>

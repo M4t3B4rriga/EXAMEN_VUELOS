@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('/img/login.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+    }
+
+    #loginForm {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 480px) {
+      #loginForm {
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <form id="loginForm">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Contraseña" required />
+    <button type="submit">Ingresar</button>
+  </form>
+  <script src="public/js/login.js"></script>
+</body>
+</html>

@@ -19,7 +19,7 @@ public class LoginWindow extends JFrame {
 
     public LoginWindow() {
         setTitle("Viajecitos S.A. - Bienvenida");
-        setSize(800, 600);
+        setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         

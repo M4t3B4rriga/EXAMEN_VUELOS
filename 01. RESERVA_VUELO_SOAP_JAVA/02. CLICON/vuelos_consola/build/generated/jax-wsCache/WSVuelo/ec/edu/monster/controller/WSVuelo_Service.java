@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "WSVuelo", targetNamespace = "http://controller.monster.edu.ec/", wsdlLocation = "http://192.168.0.102:8080/Reservas_vuelos/WSVuelo?wsdl")
+@WebServiceClient(name = "WSVuelo", targetNamespace = "http://controller.monster.edu.ec/", wsdlLocation = "http://10.40.26.45:8080/Reservas_vuelos/WSVuelo?wsdl")
 public class WSVuelo_Service
     extends Service
 {
@@ -30,7 +30,7 @@ public class WSVuelo_Service
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://192.168.0.102:8080/Reservas_vuelos/WSVuelo?wsdl");
+            url = new URL("http://10.40.26.45:8080/Reservas_vuelos/WSVuelo?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

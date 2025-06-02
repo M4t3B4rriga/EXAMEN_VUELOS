@@ -8,7 +8,7 @@ public class AccesoDB {
     
     private static final String URL = "jdbc:mysql://localhost:3306/viajecitos_sa?useSSL=false";
     private static final String USER = "root";
-    private static final String PASS = "rootroot";
+    private static final String PASS = "root";
 
     public AccesoDB() {
     }
