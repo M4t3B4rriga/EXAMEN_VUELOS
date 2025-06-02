@@ -42,8 +42,7 @@
               "RelativeToolTip": "ClienteConsolaVuelos\\ec.edu.monster.controlador\\ClienteAPI.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwEwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:15:15.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T18:15:15.739Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "ClienteConsolaVuelos\\ec.edu.monster.modelo\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:14:44.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T18:14:44.456Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "ClienteConsolaVuelos\\Program.cs",
               "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLICON\\ClienteConsolaVuelos\\ClienteConsolaVuelos\\Program.cs",
               "RelativeToolTip": "ClienteConsolaVuelos\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T18:05:53.771Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "ClienteConsolaVuelos\\ec.edu.monster.modelo\\Boleto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:14:28.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T18:14:28.696Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "ClienteConsolaVuelos\\ec.edu.monster.modelo\\Vuelo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:14:12.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T18:14:12.169Z"
             }
           ]
         }

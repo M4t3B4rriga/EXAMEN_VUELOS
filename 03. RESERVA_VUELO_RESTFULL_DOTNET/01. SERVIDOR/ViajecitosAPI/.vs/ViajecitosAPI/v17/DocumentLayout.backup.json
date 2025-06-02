@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\01. servidor\\viajecitosapi\\viajecitosapi\\ec.edu.monster.modelo\\viajecitosmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|solutionrelative:viajecitosapi\\ec.edu.monster.modelo\\viajecitosmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\01. servidor\\viajecitosapi\\viajecitosapi\\ec.edu.monster.controlador\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|solutionrelative:viajecitosapi\\ec.edu.monster.controlador\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\01. servidor\\viajecitosapi\\viajecitosapi\\ec.edu.monster.controlador\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|solutionrelative:viajecitosapi\\ec.edu.monster.controlador\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\01. servidor\\viajecitosapi\\viajecitosapi\\ec.edu.monster.modelo\\viajecitosmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|solutionrelative:viajecitosapi\\ec.edu.monster.modelo\\viajecitosmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA4AA9C4-6728-4D53-B602-9FD4B8DD0AB7}|ViajecitosAPI\\ViajecitosAPI.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\01. servidor\\viajecitosapi\\viajecitosapi\\data\\viajecitoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,19 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ViajecitosModels.cs",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
               "RelativeDocumentMoniker": "ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
               "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
               "RelativeToolTip": "ViajecitosAPI\\ec.edu.monster.modelo\\ViajecitosModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T02:13:30.726Z"
+              "WhenOpened": "2025-06-01T02:13:30.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,20 +67,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.controlador\\UsuariosController.cs",
               "RelativeDocumentMoniker": "ViajecitosAPI\\ec.edu.monster.controlador\\UsuariosController.cs",
               "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.controlador\\UsuariosController.cs",
               "RelativeToolTip": "ViajecitosAPI\\ec.edu.monster.controlador\\UsuariosController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAwwE0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T01:56:03.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T01:56:03.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ComprasController.cs",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.controlador\\ComprasController.cs",
               "RelativeDocumentMoniker": "ViajecitosAPI\\ec.edu.monster.controlador\\ComprasController.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BoletosController.cs",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ec.edu.monster.controlador\\BoletosController.cs",
               "RelativeDocumentMoniker": "ViajecitosAPI\\ec.edu.monster.controlador\\BoletosController.cs",
@@ -111,12 +111,11 @@
               "RelativeToolTip": "ViajecitosAPI\\ec.edu.monster.controlador\\BoletosController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T01:52:37.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T01:52:37.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ViajecitosAPI\\appsettings.json",
