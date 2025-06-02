@@ -45,6 +45,7 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
         {
             string origen = txtOrigen.Text.Trim();
             string destino = txtDestino.Text.Trim();
+            DateTime fechaSeleccionada = dtpFecha.Value.Date; // Obtener fecha del DateTimePicker
 
             if (string.IsNullOrEmpty(origen) || string.IsNullOrEmpty(destino))
             {
@@ -55,7 +56,19 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
             try
             {
                 var vuelos = await api.BuscarVuelos(origen, destino);
-                dgvVuelos.DataSource = vuelos;
+
+                // Filtrar por la fecha seleccionada
+                var vuelosFiltrados = vuelos.Where(v => v.hora_salida.Date == fechaSeleccionada).ToList();
+
+                if (vuelosFiltrados.Any())
+                {
+                    dgvVuelos.DataSource = vuelosFiltrados;
+                }
+                else
+                {
+                    MessageBox.Show("No se encontraron vuelos para la fecha seleccionada.");
+                    dgvVuelos.DataSource = null;
+                }
             }
             catch (Exception ex)
             {
@@ -70,12 +83,27 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
 
         private void BuscarVuelosForm_Load(object sender, EventArgs e)
         {
-
+            dtpFecha.Value = DateTime.Today; // Establece la fecha actual como predeterminada
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+        }
+
+        private void lblFecha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFecha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpFecha_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

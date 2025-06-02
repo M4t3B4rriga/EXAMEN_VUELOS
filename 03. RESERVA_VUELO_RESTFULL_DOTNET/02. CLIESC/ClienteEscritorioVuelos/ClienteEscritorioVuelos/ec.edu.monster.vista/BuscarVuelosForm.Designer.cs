@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BuscarVuelosForm));
             this.lblOrigen = new System.Windows.Forms.Label();
             this.lblDestino = new System.Windows.Forms.Label();
             this.txtOrigen = new System.Windows.Forms.TextBox();
             this.txtDestino = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.dgvVuelos = new System.Windows.Forms.DataGridView();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVuelos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +53,7 @@
             // lblDestino
             // 
             this.lblDestino.AutoSize = true;
-            this.lblDestino.Location = new System.Drawing.Point(163, 161);
+            this.lblDestino.Location = new System.Drawing.Point(163, 142);
             this.lblDestino.Name = "lblDestino";
             this.lblDestino.Size = new System.Drawing.Size(59, 16);
             this.lblDestino.TabIndex = 1;
@@ -67,7 +70,7 @@
             // 
             // txtDestino
             // 
-            this.txtDestino.Location = new System.Drawing.Point(312, 161);
+            this.txtDestino.Location = new System.Drawing.Point(312, 139);
             this.txtDestino.Name = "txtDestino";
             this.txtDestino.Size = new System.Drawing.Size(188, 22);
             this.txtDestino.TabIndex = 3;
@@ -94,11 +97,33 @@
             this.dgvVuelos.TabIndex = 5;
             this.dgvVuelos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVuelos_CellContentClick);
             // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(163, 185);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(48, 16);
+            this.lblFecha.TabIndex = 6;
+            this.lblFecha.Text = "Fecha:";
+            this.lblFecha.Click += new System.EventHandler(this.lblFecha_Click);
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Location = new System.Drawing.Point(312, 179);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(264, 22);
+            this.dtpFecha.TabIndex = 8;
+            this.dtpFecha.ValueChanged += new System.EventHandler(this.dtpFecha_ValueChanged);
+            // 
             // BuscarVuelosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(639, 520);
+            this.Controls.Add(this.dtpFecha);
+            this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.dgvVuelos);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtDestino);
@@ -122,5 +147,7 @@
         private System.Windows.Forms.TextBox txtDestino;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.DataGridView dgvVuelos;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
     }
 }

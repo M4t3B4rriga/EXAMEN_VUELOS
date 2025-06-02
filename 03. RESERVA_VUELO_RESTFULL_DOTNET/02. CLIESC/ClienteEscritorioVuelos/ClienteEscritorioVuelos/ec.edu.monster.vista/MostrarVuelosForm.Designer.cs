@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MostrarVuelosForm));
             this.btnActualizar = new System.Windows.Forms.Button();
             this.dgvTodosVuelos = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTodosVuelos)).BeginInit();
@@ -58,9 +59,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(644, 395);
             this.Controls.Add(this.dgvTodosVuelos);
             this.Controls.Add(this.btnActualizar);
+            this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Name = "MostrarVuelosForm";
             this.Text = "MostrarVuelosForm";
             this.Load += new System.EventHandler(this.MostrarVuelosForm_Load);

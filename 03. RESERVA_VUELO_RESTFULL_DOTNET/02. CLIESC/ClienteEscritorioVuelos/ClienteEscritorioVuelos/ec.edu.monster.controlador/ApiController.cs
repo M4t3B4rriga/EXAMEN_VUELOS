@@ -17,7 +17,7 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.controlador
         public ApiController()
         {
             client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.100.16/"); // Cambia según tu IP/URL
+            client.BaseAddress = new Uri("http://10.40.20.28/"); // Cambia según tu IP/URL
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }

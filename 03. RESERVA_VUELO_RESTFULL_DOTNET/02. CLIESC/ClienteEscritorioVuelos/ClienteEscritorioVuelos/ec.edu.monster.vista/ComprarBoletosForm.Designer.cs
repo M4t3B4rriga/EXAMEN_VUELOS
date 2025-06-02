@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComprarBoletosForm));
             this.lblIdVuelo = new System.Windows.Forms.Label();
             this.lblAsientos = new System.Windows.Forms.Label();
             this.btnComprar = new System.Windows.Forms.Button();
@@ -85,6 +86,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(387, 328);
             this.Controls.Add(this.txtAsientos);
             this.Controls.Add(this.txtIdVuelo);

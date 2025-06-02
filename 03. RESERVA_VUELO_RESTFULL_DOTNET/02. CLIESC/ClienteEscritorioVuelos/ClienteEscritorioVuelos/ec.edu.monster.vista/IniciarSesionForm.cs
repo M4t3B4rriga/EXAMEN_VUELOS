@@ -15,7 +15,7 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
     public partial class IniciarSesionForm : Form
     {
         private readonly ApiController api;
-        public static Usuario UsuarioLogueado = null;
+        public static Usuario UsuarioLogueado = null; // Guardar usuario logueado
 
         public IniciarSesionForm()
         {
@@ -25,41 +25,52 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
 
         private void IniciarSesionForm_Load(object sender, EventArgs e)
         {
-
+            // Puedes dejar esto vacío o inicializar algo si lo necesitas
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            // Puedes dejar esto vacío o eliminarlo si no lo necesitas
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
         {
-
+            // Puedes dejar esto vacío o eliminarlo si no lo necesitas
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            // Puedes dejar esto vacío o eliminarlo si no lo necesitas
         }
 
         private void txtContrasena_TextChanged(object sender, EventArgs e)
         {
-
+            // Puedes dejar esto vacío o eliminarlo si no lo necesitas
         }
 
         private async void btnIniciarSesion_Click(object sender, EventArgs e)
         {
-            var email = txtEmail.Text;
-            var contrasena = txtContrasena.Text;
+            var email = txtEmail.Text.Trim();
+            var contrasena = txtContrasena.Text.Trim();
+
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(contrasena))
+            {
+                MessageBox.Show("Por favor, ingrese el email y la contraseña.");
+                return;
+            }
 
             var user = await api.LoginApi(email, contrasena);
             if (user != null)
             {
-                UsuarioLogueado = user;
+                UsuarioLogueado = user; // Guardar usuario logueado para otras pantallas
                 MessageBox.Show($"Bienvenido {user.nombre_usuario} {user.apellido_usuario}");
+
+                // Oculta el formulario actual
                 this.Hide();
-                new MenuForm().Show();
+
+                // Abre el menú principal
+                var menu = new MenuForm();
+                menu.Show();
             }
             else
             {

@@ -154,9 +154,28 @@ namespace ClienteConsolaVuelos
             var o = Console.ReadLine();
             Console.Write("Destino: ");
             var d = Console.ReadLine();
+            Console.Write("Fecha del vuelo (YYYY-MM-DD): ");
+            var fechaInput = Console.ReadLine();
+
+            if (!DateTime.TryParse(fechaInput, out DateTime fechaSeleccionada))
+            {
+                Console.WriteLine("Formato de fecha inválido. Usa YYYY-MM-DD.");
+                return;
+            }
+
             var vuelos = await api.BuscarVuelos(o, d);
-            foreach (var v in vuelos)
-                Console.WriteLine($"{v.id_vuelo} | {v.ciudad_origen}->{v.ciudad_destino} | ${v.valor} | Asientos: {v.asientos_disponibles}");
+
+            var vuelosFiltrados = vuelos.Where(v => v.hora_salida.Date == fechaSeleccionada.Date).ToList();
+
+            if (vuelosFiltrados.Any())
+            {
+                foreach (var v in vuelosFiltrados)
+                    Console.WriteLine($"{v.id_vuelo} | {v.ciudad_origen}->{v.ciudad_destino} | ${v.valor} | Asientos: {v.asientos_disponibles} | Salida: {v.hora_salida}");
+            }
+            else
+            {
+                Console.WriteLine("No se encontraron vuelos para la fecha seleccionada.");
+            }
         }
 
         static async Task ComprarBoletos(ClienteAPI api)

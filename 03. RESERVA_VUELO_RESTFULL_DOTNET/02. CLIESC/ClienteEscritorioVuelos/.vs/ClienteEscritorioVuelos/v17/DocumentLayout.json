@@ -3,44 +3,68 @@
   "WorkspaceRootPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\buscarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\buscarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\buscarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\buscarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\buscarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\buscarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\iniciarsesionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\iniciarsesionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\iniciarsesionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\iniciarsesionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.controlador\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.controlador\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarvuelosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\crearcuentaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\crearcuentaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|c:\\examen_vuelos\\03. reserva_vuelo_restfull_dotnet\\02. cliesc\\clienteescritoriovuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\comprarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F64B2CC-5AA3-4C0E-A003-7CAB02FE302E}|ClienteEscritorioVuelos\\ClienteEscritorioVuelos.csproj|solutionrelative:clienteescritoriovuelos\\ec.edu.monster.vista\\mostrarboletosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +74,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BuscarVuelosForm.cs",
-              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
-              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
-              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
-              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAMwE0AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CrearCuentaForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\CrearCuentaForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\CrearCuentaForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\CrearCuentaForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\CrearCuentaForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:43:32.465Z",
+              "WhenOpened": "2025-06-02T14:25:25.399Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IniciarSesionForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:24:27.803Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuForm.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:06:09.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BuscarVuelosForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
               "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
@@ -79,20 +127,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\Program.cs",
-              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\Program.cs",
-              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\Program.cs",
-              "RelativeToolTip": "ClienteEscritorioVuelos\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BuscarVuelosForm.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\BuscarVuelosForm.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:35:36.229Z",
+              "WhenOpened": "2025-06-02T04:43:32.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "MenuForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:25:45.161Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.controlador\\ApiController.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.controlador\\ApiController.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.controlador\\ApiController.cs",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.controlador\\ApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:26:47.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IniciarSesionForm.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\IniciarSesionForm.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:30:15.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MostrarVuelosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarVuelosForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarVuelosForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarVuelosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarVuelosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:26:15.644Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MostrarBoletosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:29:56.353Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:34:52.553Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs",
               "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs",
@@ -105,19 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs",
-              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs",
-              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\LoginForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:34:52.553Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "MostrarBoletosForm.cs",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs",
               "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs",
@@ -130,32 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MostrarBoletosForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs",
-              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs",
-              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MostrarBoletosForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:29:56.353Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ComprarBoletosForm.cs",
-              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
-              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
-              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
-              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:28:54.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ComprarBoletosForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
               "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
@@ -167,15 +252,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuForm.cs",
-              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
-              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
-              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
-              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\MenuForm.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAswD4AAAAYAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\Program.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\Program.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\Program.cs",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:06:09.863Z",
+              "WhenOpened": "2025-06-02T04:35:36.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ComprarBoletosForm.cs",
+              "DocumentMoniker": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
+              "RelativeDocumentMoniker": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
+              "ToolTip": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\02. CLIESC\\ClienteEscritorioVuelos\\ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
+              "RelativeToolTip": "ClienteEscritorioVuelos\\ec.edu.monster.vista\\ComprarBoletosForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:28:54.079Z",
               "EditorCaption": ""
             }
           ]

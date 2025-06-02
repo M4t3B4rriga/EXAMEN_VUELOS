@@ -1,0 +1,111 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mostrar Boletos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('/Content/imagenes/menu.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            width: 400px;
+        }
+
+            .form-container h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .form-container label {
+                display: block;
+                margin: 10px 0 5px;
+                font-weight: bold;
+            }
+
+            .form-container input {
+                width: 90%;
+                padding: 8px;
+                margin-bottom: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .form-container button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+                .form-container button:hover {
+                    background-color: #45a049;
+                }
+
+        .results {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+            .results ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .results li {
+                background: rgba(255,255,255,0.1);
+                padding: 8px;
+                margin-bottom: 5px;
+                border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Mostrar Boletos</h2>
+
+        <form method="post">
+            <label>ID Usuario:</label>
+            <input type="number" name="idUsuario" />
+            <button type="submit">Ver Boletos</button>
+        </form>
+
+        @if (ViewBag.Boletos != null)
+        {
+            <div class="results">
+                <h3>Boletos del Usuario:</h3>
+                <ul>
+                    @foreach (var boleto in ViewBag.Boletos)
+                    {
+                        <li>ID Boleto: @boleto.id_boleto | Vuelo: @boleto.id_vuelo | Asiento: @boleto.numero_asiento | Valor: $@boleto.valor</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <form action="/Home/Menu" method="get">
+            <button type="submit" class="back-button">Regresar al Menú</button>
+        </form>
+    </div>
+</body>
+</html>

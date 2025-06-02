@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using ClienteEscritorioVuelos.ec.edu.monster.controlador;
 using ClienteEscritorioVuelos.ec.edu.monster.modelo;
 
-
 namespace ClienteEscritorioVuelos.ec.edu.monster.vista
 {
     public partial class MenuForm : Form
@@ -18,11 +17,8 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
         public Usuario UsuarioLogueado { get; private set; }
 
         public MenuForm()
-
         {
-
             InitializeComponent();
-
         }
 
         private void MenuForm_Load(object sender, EventArgs e)
@@ -32,7 +28,7 @@ namespace ClienteEscritorioVuelos.ec.edu.monster.vista
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            // Puedes eliminar esto si no se usa
         }
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)
