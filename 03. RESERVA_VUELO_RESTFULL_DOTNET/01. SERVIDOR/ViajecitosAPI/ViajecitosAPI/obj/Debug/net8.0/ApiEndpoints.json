@@ -244,6 +244,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ViajecitosAPI.ec.edu.monster.controlador.FacturasController",
+    "Method": "GenerarFactura",
+    "RelativePath": "api/Facturas/generar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "ViajecitosAPI.ec.edu.monster.modelo.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ViajecitosAPI.ec.edu.monster.controlador.UsuariosController",
     "Method": "GetUsuarios",
     "RelativePath": "api/Usuarios",

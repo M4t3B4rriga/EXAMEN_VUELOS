@@ -10,5 +10,7 @@ namespace ViajecitosAPI.Data
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Boleto> Boletos { get; set; }
         public DbSet<Compra> Compras { get; set; }
+        public DbSet<Factura> Facturas { get; set; }
+
     }
 }

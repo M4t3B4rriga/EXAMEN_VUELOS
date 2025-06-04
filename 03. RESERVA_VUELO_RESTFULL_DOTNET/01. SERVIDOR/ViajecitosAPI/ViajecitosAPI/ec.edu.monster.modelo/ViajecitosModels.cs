@@ -55,5 +55,11 @@ namespace ViajecitosAPI.ec.edu.monster.modelo
 
         public DateTime fecha_compra { get; set; }
         public decimal monto_total { get; set; }
+
+        // ✅ Propiedad de navegación agregada
+        public Usuario Usuario { get; set; }
+
+        // (Opcional: también puedes agregar)
+        // public Boleto Boleto { get; set; }
     }
 }

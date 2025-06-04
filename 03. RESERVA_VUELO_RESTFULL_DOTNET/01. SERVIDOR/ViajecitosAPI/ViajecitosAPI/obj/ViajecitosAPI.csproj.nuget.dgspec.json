@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj": {}
+    "C:\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj": {}
   },
   "projects": {
-    "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj": {
+    "C:\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj",
+        "projectUniqueName": "C:\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj",
         "projectName": "ViajecitosAPI",
-        "projectPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj",
+        "projectPath": "C:\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\ViajecitosAPI.csproj",
         "packagesPath": "C:\\Users\\Adaly\\.nuget\\packages\\",
-        "outputPath": "C:\\EXAMEN_VUELOS\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\obj\\",
+        "outputPath": "C:\\03. RESERVA_VUELO_RESTFULL_DOTNET\\01. SERVIDOR\\ViajecitosAPI\\ViajecitosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,6 +72,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
